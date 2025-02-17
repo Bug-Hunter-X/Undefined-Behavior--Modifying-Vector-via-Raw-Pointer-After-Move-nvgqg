@@ -1,0 +1,1 @@
+This repository demonstrates a common subtle error in Rust involving unsafe code and vector manipulation. The `bug.rs` file contains code that exhibits undefined behavior due to modifying a vector via a raw pointer after the vector's ownership may have changed. The `bugSolution.rs` file provides a corrected version that avoids undefined behavior.
